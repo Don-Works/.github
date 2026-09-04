@@ -43,6 +43,22 @@ brw drives a real, visible Chrome window so an agent can work on the actual web 
 
 [![Repo](https://img.shields.io/badge/GitHub-brw-ff2ec4?style=flat-square&logo=github&labelColor=050604)](https://github.com/Don-Works/brw)
 
+### `▍` Resident
+
+> A macOS gauge for the memory your local models live in.
+
+Activity Monitor says memory is 83% full. That number is true and useless. Resident is a macOS menu bar gauge that measures the three things that actually decide whether local inference is fast — whether the weights are resident, how much the GPU is allowed to hold, and the memory-bandwidth decode ceiling per model — and tells you which one is currently binding, with live tok/s.
+
+[![Repo](https://img.shields.io/badge/GitHub-resident-f5a623?style=flat-square&logo=github&labelColor=050604)](https://github.com/Don-Works/resident)
+
+### `▍` Handler
+
+> A macOS watchdog for the ceilings that panic your Mac.
+
+When macOS exhausts a system-wide limit — most often the open-file table — `launchd` dies and the kernel panics with `initproc exited`, and your Mac reboots mid-work with no warning. Handler shows how close you actually are, names the process eating the headroom, tells you which files it is holding, fits a trend over time to turn growth into a deadline, and can opt in to auto-reclaim before the machine falls over.
+
+[![Repo](https://img.shields.io/badge/GitHub-handler-f87171?style=flat-square&logo=github&labelColor=050604)](https://github.com/Don-Works/handler)
+
 ### `▍` More on the way
 
 > The rest of the bench.
