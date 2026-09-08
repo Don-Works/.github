@@ -59,6 +59,14 @@ When macOS exhausts a system-wide limit — most often the open-file table — `
 
 [![Repo](https://img.shields.io/badge/GitHub-handler-f87171?style=flat-square&logo=github&labelColor=050604)](https://github.com/Don-Works/handler)
 
+### `▍` Reminders MCP
+
+> Apple Reminders, drivable by an agent.
+
+Your Reminders lists as twelve MCP tools in one Swift binary — due dates, alarms, repeats, priorities and notes, read and written straight through EventKit. An agent works the same list you do, on the same Mac, with no sync service in between.
+
+[![Repo](https://img.shields.io/badge/GitHub-reminders--mcp-7c5cff?style=flat-square&logo=github&labelColor=050604)](https://github.com/Don-Works/reminders-mcp)
+
 ### `▍` More on the way
 
 > The rest of the bench.
