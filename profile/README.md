@@ -35,14 +35,6 @@ The gateway every Revitt agent runs through. It decides which tools an agent can
 [![Repo](https://img.shields.io/badge/GitHub-mcplexer-2ea4e0?style=flat-square&logo=github&labelColor=050604)](https://github.com/Don-Works/mcplexer)
 [![Site](https://img.shields.io/badge/mcplexer.com-2ea4e0?style=flat-square&labelColor=050604)](https://mcplexer.com)
 
-### `▍` brw
-
-> A real browser for AI agents.
-
-brw drives a real, visible Chrome window so an agent can work on the actual web — signed-in tabs, real clicks and forms, and a check after every step that what it tried to do actually happened. Exposed over MCP and HTTP.
-
-[![Repo](https://img.shields.io/badge/GitHub-brw-ff2ec4?style=flat-square&logo=github&labelColor=050604)](https://github.com/Don-Works/brw)
-
 ### `▍` Resident
 
 > A macOS gauge for the memory your local models live in.
